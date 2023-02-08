@@ -31,10 +31,11 @@ const InputField = ({
                 {label}
                 {tooltip && (
                     <Tooltip
-                        tabIndex="5"
+                        tabIndex={5}
                         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                         icon={undefined}
                         placement={undefined}
+                        isLogoutLink={false}
                     />
                 )}
             </label>

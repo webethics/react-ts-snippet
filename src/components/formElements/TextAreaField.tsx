@@ -35,6 +35,7 @@ const TextAreaField = ({
                         tabIndex={undefined}
                         icon={undefined}
                         placement={undefined}
+                        isLogoutLink={false}
                     />
                 </label>
             )}

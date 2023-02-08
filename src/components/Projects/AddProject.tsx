@@ -24,6 +24,7 @@ interface Props {
     closeModal: () => void;
     updateProjects: (arg0: string) => void;
     allUsers: any;
+    editMode?: boolean;
 }
 
 const AddProject = (props: Props): ReactElement<Props> => {

@@ -48,7 +48,10 @@ export interface ButtonConfig {
         type?: "button" | "submit" | "reset" | undefined;
         loader?: boolean;
         disabled?: boolean | undefined;
-        clickEvent?: React.MouseEventHandler<HTMLButtonElement> | undefined;
+        clickEvent?:
+            | React.MouseEventHandler<HTMLButtonElement>
+            | undefined
+            | (() => Promise<void>);
         value?: any;
     };
     classes: string;

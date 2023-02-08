@@ -278,7 +278,6 @@ const Projects = (): ReactElement => {
                 }
                 title="Add a project"
                 buttonContent="Save project"
-                onClickEvent={() => {}}
                 closeModal={closeModal}
             />
         </div>

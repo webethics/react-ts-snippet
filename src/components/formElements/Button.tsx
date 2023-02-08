@@ -9,7 +9,7 @@ const Button = (props: ButtonConfig): ReactElement => {
             <button
                 type={props.attributes.type}
                 className={`${props.classes} ${
-                    props.attributes.loader
+                    props.attributes.loader ?? false
                         ? "bg-active border-active"
                         : "text-center"
                 }`}
@@ -22,7 +22,9 @@ const Button = (props: ButtonConfig): ReactElement => {
                     viewBox="0 0 100 100"
                     preserveAspectRatio="xMidYMid"
                     className={`${
-                        props.attributes.loader ? "inline-block" : "hidden"
+                        props.attributes.loader ?? false
+                            ? "inline-block"
+                            : "hidden"
                     }`}
                 >
                     <g>
@@ -59,7 +61,11 @@ const Button = (props: ButtonConfig): ReactElement => {
                         ></animateTransform>
                     </g>
                 </svg>
-                <span className={`${props.attributes.loader ? "hidden" : ""}`}>
+                <span
+                    className={`${
+                        props.attributes.loader ?? false ? "hidden" : ""
+                    }`}
+                >
                     {t(props.attributes.value)}
                 </span>
             </button>

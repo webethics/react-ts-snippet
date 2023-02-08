@@ -1,13 +1,13 @@
 import React, { type ReactElement } from "react";
 import Button from "../formElements/Button";
-import { type ButtonAttributesConfig } from "../../types/formElemetsTypes";
 
 const ConfirmModal = ({
     heading,
     attributes,
 }: {
     heading: string;
-    attributes: ButtonAttributesConfig;
+    attributes: any;
+    closeModal: () => void;
 }): ReactElement => {
     return (
         <>

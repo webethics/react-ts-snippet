@@ -31,6 +31,7 @@ export interface CustomModalConfig {
     component?: React.ReactElement;
     title: string;
     closeModal: (event: any) => void;
+    buttonContent?: string;
 }
 
 export interface modalBottomConfig {
