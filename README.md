@@ -5,13 +5,13 @@ This is a React project that utilizes Vite as a build tool, Husky for pre-commit
 ## Prerequisites
 
 - Node.js
-- npm or yarn
+- npm
 
 ## Getting Started
 
 1. Clone the repository:
 
-git clone https://github.com/your-repository.git
+git clone [https://github.com/your-repository.git](https://github.com/webethics/react-ts-snippet.git)
 
 markdown
 Copy code
