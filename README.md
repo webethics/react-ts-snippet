@@ -11,27 +11,21 @@ This is a React project that utilizes Vite as a build tool, Husky for pre-commit
 
 1. Clone the repository:
 
-git clone [https://github.com/your-repository.git](https://github.com/webethics/react-ts-snippet.git)
+git clone https://github.com/webethics/react-ts-snippet.git
 
-markdown
-Copy code
 
 2. Install the dependencies:
 
-cd your-repository
-npm install or yarn install
+cd react-ts-snippet
+npm install 
 
-markdown
-Copy code
 
 3. Start the development server:
 
-npm run dev or yarn dev
+npm run dev 
 
-csharp
-Copy code
 
-The development server will start at `http://localhost:3000` by default. You can now access the application in your browser.
+The development server will start at `http://localhost:5173` by default. You can now access the application in your browser.
 
 ## Stopping the Project
 
@@ -55,10 +49,8 @@ Prettier is a code formatting tool that automatically formats your code accordin
 
 To create a production build of the project, run the following command:
 
-npm run build or yarn build
+npm run build
 
-css
-Copy code
 
 This will generate a production-ready build in the `dist` directory.
 
