@@ -1,0 +1,8 @@
+{
+    "signin": "Logga in",
+    "email": "E-post",
+    "emailAddress": "E-postadress",
+    "requestVerificationCode": "Begär verifieringskod",
+    "usePhoneNumber": "Använd telefonnummer istället",
+    "youAgreedToOurText": "Genom att välja 'Begär verifieringskod' godkänner du vår"
+}
