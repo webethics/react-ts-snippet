@@ -1,6 +1,21 @@
 # React Project with Vite, Husky, and Prettier
 
 This is a React project that utilizes Vite as a build tool, Husky for pre-commit hooks, and Prettier for code formatting.
+This React project uses React Redux Toolkit for state management and React Router DOM for routing.
+
+### Auth 
+
+* User Login using phone
+* User Login using email 
+* Verification using OTP
+
+### Projects
+
+* Add new project
+* Edit existing project
+* Delete project
+
+
 
 ## Prerequisites
 
@@ -57,3 +72,4 @@ This will generate a production-ready build in the `dist` directory.
 ## Conclusion
 
 This is a simple project that showcases how to use Vite, Husky, and Prettier in a React project. These tools work together to provide a fast, efficient, and well-formatted development environment.
+
