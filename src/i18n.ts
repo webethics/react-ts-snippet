@@ -4,7 +4,7 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import * as englishLang from "./translations/en/common.json";
 import * as swedishLang from "./translations/ch/common.json";
 
-i18n
+void i18n
     // detect user language
     // learn more: https://github.com/i18next/i18next-browser-languageDetector
     .use(LanguageDetector)
