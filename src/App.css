@@ -1,0 +1,341 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.react-tel-input .form-control {
+  padding-left: 72px !important;
+}
+.flag-dropdown {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border: none !important;
+  left: 1px;
+  top: 1px !important;
+  bottom: 1px !important;
+  width: 70px;
+  background: transparent !important;
+  cursor: default !important;
+}
+.react-tel-input .flag-dropdown.open {
+  padding: 0 11px !important;
+  width: 100% !important;
+  justify-content: flex-end !important;
+}
+.react-tel-input .flag-dropdown.open .country-list li.search input {
+  border-bottom-color: black !important;
+}
+.flag-dropdown .selected-flag {
+  height: 36px !important;
+  border-right: 1px solid rgba(223, 223, 238, 1);
+  padding: 0 !important;
+  width: 48px !important;
+  z-index: 9;
+}
+.flag-dropdown .selected-flag.open {
+  border-right: none;
+  width: 14px !important;
+  background-color: transparent !important;
+  right: 15px;
+}
+.flag-dropdown .selected-flag.open .flag {
+  background: none;
+}
+.flag-dropdown .selected-flag.open .arrow {
+  left: 0 !important;
+  transform: rotate(180deg);
+}
+.country-list {
+  top: -1px;
+  left: -1px;
+  width: 100% !important;
+  margin: 0 !important;
+  box-shadow: none !important;
+  border: 1px solid rgba(0, 77, 246, 1);
+  border-radius: 4px !important;
+}
+.country-list li.search {
+  padding: 0 !important;
+}
+.country-list li.search input {
+  margin-left: 0 !important;
+  margin-bottom: 0 !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-radius: 0 !important;
+}
+.country-list li.search input:focus {
+  border-top: none !important;
+}
+.country-list li .dial-code {
+  color: #000000 !important;
+}
+.country-list li {
+  text-align: left;
+  font-size: 16px;
+  font-family: "InterRegular";
+  color: #000000;
+  line-height: 19px;
+  padding: 16px 14px !important;
+  border-top: 1px solid rgba(223, 233, 238, 1);
+}
+.country-list li .flag {
+  display: none !important;
+}
+.react-tel-input .country-list .country:hover,
+.react-tel-input .country-list .country.highlight {
+  background-color: rgba(249, 249, 251, 1) !important;
+}
+.flag-dropdown .arrow {
+  border: none !important;
+  background: url("./assets/images/dropdown-arrow.svg") no-repeat center !important;
+  height: 9px !important;
+  width: 14px !important;
+  top: 2px !important;
+  left: 25px !important;
+  margin-top: 0 !important;
+}
+.sidebar a.active svg path {
+  fill: #000000;
+}
+
+/* Rnage Slider Css */
+.range-slider {
+  width: 480px;
+  margin: 60px auto 0;
+}
+.single-thumb .range-slider__thumb[data-lower] {
+  width: 0;
+}
+.single-thumb .range-slider__range {
+  border-radius: 6px;
+}
+.range-slider {
+  margin: 0;
+  width: calc(100% - 85px) !important;
+  height: 6px !important;
+  background: #dfe9ee !important;
+}
+.range-slider .range-slider__range {
+  background: #004df6 !important;
+}
+.range-slider__thumb {
+  background: #ffffff url("./assets//images/thumb-lines.svg") no-repeat center/cover !important;
+}
+.range-slider .range-slider__thumb[aria-disabled="false"] {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0px 4px 9px rgb(0 0 0 / 25%);
+  border: 1.5px solid #dfe9ee;
+}
+.field-wrap {
+  width: 75px !important;
+}
+.modal-header-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 24px 10px 46px;
+}
+
+.project-wrap.red-zone:before {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 50px;
+  background: rgba(255, 123, 73, 1);
+  width: 2px;
+  height: 80%;
+}
+.tooltip-container {
+  z-index: 999999 !important;
+}
+.sub-task-field-wrap {
+  width: calc(100% - 32px);
+  position: relative;
+}
+.Modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 0;
+  border-radius: 8px;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  width: 550px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.ModalOverlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+}
+.border-error input {
+  border-color: rgb(255, 123, 73) !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid #cacaca;
+  -webkit-text-fill-color: #000;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.ReactModal__Body--open {
+  overflow: hidden;
+}
+.quill {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.ql-toolbar.ql-snow + .ql-container.ql-snow {
+  border: 1px solid #e8edf4 !important;
+  margin-bottom: 1rem;
+}
+.quill .ql-toolbar.ql-snow {
+  max-width: calc(100% - 96px);
+  background: #f9f9fb;
+  border: 1.5px solid #e8edf4;
+}
+.edit-mode .quill .ql-toolbar.ql-snow {
+  max-width: calc(100% - 175px);
+}
+.modal-content .ql-toolbar.ql-snow,
+.ReactQuillMobile .ql-toolbar.ql-snow {
+  max-width: 100%;
+}
+
+.ql-toolbar {
+  position: relative;
+  background: #f9f9fb;
+  border: 1px solid #e8edf4;
+}
+.ql-toolbar:after,
+.ql-toolbar:before {
+  bottom: 100%;
+  left: 35px;
+  border: solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.ql-toolbar:after {
+  border-color: rgba(249, 249, 251, 0);
+  border-bottom-color: #f9f9fb;
+  border-width: 12px;
+  margin-left: -12px;
+}
+.ql-toolbar:before {
+  border-color: rgba(232, 237, 244, 0);
+  border-bottom-color: #e8edf4;
+  border-width: 13px;
+  margin-left: -13px;
+}
+.quill .ql-toolbar.ql-snow .ql-formats {
+  margin-right: 0;
+}
+.qill-list ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+.qill-list ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.qill-list a {
+  color: #004df6;
+  text-decoration: underline;
+  word-break: break-word;
+}
+.quill .ql-snow a {
+  color: #004df6;
+}
+.quill .ql-editor.ql-blank::before,
+.quill .ql-editor {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.25rem;
+  color: #000;
+  font-family: "InterRegular";
+  font-style: normal;
+}
+.Modal {
+  outline: none;
+}
+.react-datepicker .react-datepicker__header {
+  background-color: #ffffff;
+  border: none;
+}
+.react-datepicker__triangle {
+  display: none;
+}
+
+.break-words {
+  word-break: break-word;
+}
+
+@media (max-width: 640px) {
+  .custom-small-container.border-b-none {
+    border-bottom: none !important;
+  }
+  .otp-field-wrap {
+    width: 40px;
+  }
+  .Modal {
+    left: 0;
+    right: 0;
+    top: auto;
+    bottom: 0;
+    border-radius: 16px 16px 0px 0px;
+    height: auto;
+    transform: none !important;
+    inset: auto 0 0 0 !important;
+  }
+  .modalBottomClass {
+    left: 0;
+    right: 0;
+    top: auto;
+    bottom: 0;
+    padding: 0;
+    border-radius: 16px 16px 0px 0px;
+    position: absolute;
+    background-color: #fff;
+    padding: 24px 16px;
+  }
+  .modalBottomClass .modal-content-wrap {
+    margin-left: -16px;
+    margin-right: -16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    max-height: 75vh;
+    overflow-y: auto;
+  }
+  .quill .ql-editor.ql-blank::before,
+  .quill .ql-editor {
+    font-size: 16px;
+  }
+}
